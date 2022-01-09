@@ -1,0 +1,22 @@
+{
+  "name": "gdpr-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faiz Jehan Sulaiman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exiftool-vendored": "^15.9.2",
+    "express": "^4.17.2",
+    "multiparty": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
